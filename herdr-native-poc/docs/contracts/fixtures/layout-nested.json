@@ -1,0 +1,49 @@
+{
+  "result": {
+    "snapshot": {
+      "focused_workspace_id": "w4",
+      "focused_tab_id": "w4:t1",
+      "focused_pane_id": "w4:p1",
+      "layouts": [
+        {
+          "workspace_id": "w4",
+          "tab_id": "w4:t1",
+          "zoomed": false,
+          "focused_pane_id": "w4:p1",
+          "area": { "x": 0, "y": 0, "width": 100, "height": 40 },
+          "panes": [
+            {
+              "pane_id": "w4:p1",
+              "focused": true,
+              "rect": { "x": 0, "y": 0, "width": 50, "height": 40 }
+            },
+            {
+              "pane_id": "w4:p2",
+              "focused": false,
+              "rect": { "x": 50, "y": 0, "width": 50, "height": 24 }
+            },
+            {
+              "pane_id": "w4:p3",
+              "focused": false,
+              "rect": { "x": 50, "y": 24, "width": 50, "height": 16 }
+            }
+          ],
+          "splits": [
+            {
+              "id": "split_0_root",
+              "direction": "right",
+              "ratio": 0.5,
+              "rect": { "x": 0, "y": 0, "width": 100, "height": 40 }
+            },
+            {
+              "id": "split_1",
+              "direction": "down",
+              "ratio": 0.6,
+              "rect": { "x": 50, "y": 0, "width": 50, "height": 40 }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

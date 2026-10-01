@@ -1,0 +1,6 @@
+**/target/
+**/graphify-out/
+.cursor/
+.DS_Store
+*.swp
+*~

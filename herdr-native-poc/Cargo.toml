@@ -1,0 +1,33 @@
+[package]
+name = "herdr-native-poc"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Native GTK renderer for the focused Herdr tab"
+
+[features]
+default = []
+gtk = ["dep:gtk", "dep:adw", "dep:glib", "dep:gio"]
+ghostty = []
+
+[dependencies]
+anyhow = "1"
+base64 = "0.22"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+gtk = { package = "gtk4", version = "0.11.5", features = ["v4_22"], optional = true }
+adw = { package = "libadwaita", version = "0.9.2", features = ["v1_9", "gtk_v4_22"], optional = true }
+glib = { version = "0.22", optional = true }
+gio = { version = "0.22", optional = true }
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "herdr-native-poc"
+path = "src/main.rs"

@@ -1,0 +1,40 @@
+╭─[1]─Status──────────────────────────────────╮╭─[0]─Diff──────────────────────────────────────────────────────────────────────────────────╮
+│tmp.kC7ZV5AL6D → master                      ││No changed files                                                                           │
+╰─────────────────────────────────────────────╯│                                                                                           │
+╭─[2]─Files - Worktrees - Submodules──────────╮│                                                                                           │
+│                                             ││                                                                                           │
+│                             ╭─Keybindings──────────────────────────────────────────────────────────────────╮                             │
+│                             │              --- Local ---                                                   ▐                             │
+│                             │     <ctrl+o> Copy path to clipboard                                          ▐                             │
+│                             │      <space> Stage                                                           ▐                             │
+│                             │     <ctrl+b> Filter files by status                                          ▐                             │
+│                             │            y Copy to clipboard...                                            ▐                             │
+│                             │            c Commit                                                          ▐                             │
+│                             │            w Commit changes without pre-commit hook                          ▐                             │
+╰─────────────────────────────│            A Amend last commit                                               ▐                             │
+╭─[3]─Local branches - Remotes│            C Commit changes using git editor                                 ▐                             │
+│  * master                   │     <ctrl+f> Find base commit for fixup                                      │                             │
+│                             │            e Edit                                                            │                             │
+│                             │            o Open file                                                       │                             │
+│                             │            i Ignore or exclude file...                                       │                             │
+│                             │            r Refresh files                                                   │                             │
+│                             │            s Stash                                                           │                             │
+│                             │            S View stash options...                                           │                             │
+│                             │            a Stage all                                                       │                             │
+│                             │      <enter> Stage lines / Collapse directory                                │                             │
+╰─────────────────────────────│            d Discard...                                                      │                             │
+╭─[4]─Commits - Reflog────────│            g View upstream reset options...                                  │                             │
+│󰜘 6ebf2e3f t ○ init          │            D Reset...                                                        │                             │
+│                             │            ` Toggle file tree view                                           │                             │
+│                             │     <ctrl+t> Open external diff tool (git difftool)                          │─────────────────────────────╯
+│                             │            M View merge conflict options...                                  │─────────────────────────────╮
+│                             │            f Fetch                                                           │                             │
+│                             ╰──────────────────────────────────────────────────────────────────────1 of 65─╯                             │
+│                                             ││Random tip: You can append your staged changes to an older commit by pressing 'A' on that  │
+│                                             ││commit                                                                                     │
+│                                             ││                                                                                           │
+╰──────────────────────────────────────1 of 1─╯│                                                                                           │
+╭─[5]─Stash───────────────────────────────────╮│                                                                                           │
+│                                             ││                                                                                           │
+╰──────────────────────────────────────0 of 0─╯╰───────────────────────────────────────────────────────────────────────────────────────────╯
+Execute: <enter> | Close/Cancel: <esc>                                                                            Donate Ask Question 0.63.0

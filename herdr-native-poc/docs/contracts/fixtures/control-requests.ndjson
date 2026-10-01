@@ -1,0 +1,4 @@
+{"type":"terminal.input","text":"hello"}
+{"type":"terminal.input","bytes":"G1tB"}
+{"type":"terminal.resize","cols":100,"rows":30,"cell_width_px":8,"cell_height_px":16}
+{"type":"terminal.release"}
